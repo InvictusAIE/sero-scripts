@@ -12,7 +12,7 @@ int main(){
 
   strcpy(buffer, word);
 
-  printf("%s", buffer);
+  printf("%s %u %u", buffer, strlen(buffer), strlen(word));
 
   return 0;
 }
